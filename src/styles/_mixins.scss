@@ -1,0 +1,19 @@
+@import "fonts";
+
+
+//media queries
+
+@mixin small-desktop {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+
+
+//fonts
+
+@mixin regular-font {
+  font-family: "sofia pro";
+}
+
+

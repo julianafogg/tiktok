@@ -103,3 +103,83 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+
+.oneUp {
+    background: #F4F000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    @media (min-width: 1281px) {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      
+      @media (min-width: 1281px) {
+        width: 40%;  
+      }
+    }
+  
+    &__body {
+
+      h4 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 110%;   
+        letter-spacing: -0.01em;
+        color: #000000;
+        margin: 40px 20px;
+
+        @media (min-width: 1281px) {
+          margin: 0;
+          padding-right: 243px;
+          padding-top: 87px;
+          padding-left: 64px;
+          padding-bottom: 40px
+        }
+          
+      }
+      p {
+        color:#FE2C55;
+        font-weight: 700;
+        font-size: 40px;
+         margin: 0 20px 55px;
+        
+         @media (min-width: 1281px) {
+          margin: 0;
+          padding-left: 64px;
+          padding-bottom: 40px 
+        }
+      }     
+    }
+   
+    .card {
+      &__button {       
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px 20px; 
+        background: #FE2C55;
+        border: 2px solid #FE2C55;
+        box-sizing: border-box;
+        border-radius: 100px;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        margin-left: 22px;
+        width: 131px;
+
+        @media (min-width: 1281px) {
+          margin-left: 64px;
+        }
+
+
+      }  
+   } 
