@@ -25,7 +25,8 @@
   
     &__body {
 
-      h4 {
+
+      h2 {
         @include regular-font;
         font-style: normal;
         font-weight: 700;
@@ -38,10 +39,10 @@
         @include small-desktop {
           margin: 0;
           font-size: 56px;
-        }   
+        }  
       }
 
-      p {
+      h6 {
         color:#FE2C55;
         font-weight: 700;
         font-size: 40px;
